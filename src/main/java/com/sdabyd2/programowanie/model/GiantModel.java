@@ -6,6 +6,9 @@ public class GiantModel {
     private Fatigue fatigue;
     private Nourishment nourishment;
 
+    public GiantModel() {
+    }
+
     public GiantModel(Health health, Fatigue fatigue, Nourishment nourishment){
         this.health = health;
         this.fatigue = fatigue;
