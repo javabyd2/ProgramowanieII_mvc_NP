@@ -38,7 +38,7 @@ public class Main {
 
         List<GiantModel> giants = mapper.readValue(new File("giants.json"),  new TypeReference<List<GiantModel>>(){});
         for (GiantModel giant : giants) {
-            System.out.println(giant.getFatigue());
+            System.out.println(giant.toString());
         }
 
     }
